@@ -1,0 +1,43 @@
+# Ignore build directories
+cmake-build-debug/
+
+# Ignore CMake generated files
+CMakeFiles
+CMakeCache.txt
+CMakeLists.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+
+# Ignore CLion specific files
+.idea/
+*.iml
+
+# Ignore compiled object files
+*.o
+*.obj
+*.lo
+*.la
+*.al
+*.libs
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+*.app
+
+# Ignore generated documentation
+/docs/
+/doc/
+
+# Ignore logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
